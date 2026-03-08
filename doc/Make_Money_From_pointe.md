@@ -274,13 +274,10 @@ Use `pointe.com/xyz` as a URL shortener (like bit.ly but with a cooler domain).
 
 ### Phase 2: Week 1-2 — Cost: $0
 
-1. **Write 3-5 ballet/pointe articles** targeting keywords like:
-   - "best pointe shoes for beginners"
-   - "pointe shoe fitting guide"
-   - "when to start pointe"
-2. **Sign up for affiliate programs**: Amazon Associates, Discount Dance, Capezio
-3. **Add affiliate links** to your content
-4. **Create a "Get @pointe.com email" landing page** with a simple contact form
+1. ~~**Write 3-5 ballet/pointe articles**~~ **DONE 2026-03-08** — 3 articles published: "Best Pointe Shoes for Beginners", "Pointe Shoe Fitting Guide", "When Is My Child Ready for Pointe?"
+2. ~~**Sign up for affiliate programs**~~ **PARTIAL 2026-03-08** — Amazon Associates active (tag: pointe09-20, account: rodjmartin@gmail.com). CJ Affiliate account created for Discount Dance (pending approval).
+3. ~~**Add affiliate links** to content~~ **DONE 2026-03-08** — Amazon affiliate links added to all 6 product cards in best pointe shoes article.
+4. ~~**Create a "Get @pointe.com email" landing page**~~ **DONE 2026-03-08** — email.html with pricing and Formspree inquiry form (endpoint: mwvrpjrg, account: rodjmartin@gmail.com).
 
 ### Phase 3: Month 1-2 — Cost: $0-25
 
@@ -295,6 +292,7 @@ Use `pointe.com/xyz` as a URL shortener (like bit.ly but with a cooler domain).
 2. **Double down on what works**, drop what doesn't
 3. **Expand email sales** if there's traction
 4. **Consider paid promotion** if affiliate revenue justifies it
+5. **Run Google Ads experiment** — Small budget ($3-5/day) targeting "custom email address", "short email address", "ballet email" to drive traffic to email.html. Test whether paid traffic converts to email subscriptions.
 
 ---
 
