@@ -5,131 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pointe - The World of Ballet</title>
     <meta name="description" content="Your destination for pointe shoe guides, ballet tips, and dance resources. Expert reviews and fitting guides for dancers of all levels.">
-    <style>
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-        body {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            color: #2c2c2c;
-            background: #faf8f5;
-            line-height: 1.7;
-        }
-
-        header {
-            text-align: center;
-            padding: 80px 20px 60px;
-            background: linear-gradient(135deg, #f5e6f0 0%, #e8d5e0 50%, #f0e0e8 100%);
-            border-bottom: 1px solid #dcc8d4;
-        }
-
-        header h1 {
-            font-size: 3.5rem;
-            font-weight: 400;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-            color: #4a3040;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 1.1rem;
-            color: #7a6070;
-            font-style: italic;
-            letter-spacing: 0.05em;
-        }
-
-        main {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-
-        .intro {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .intro h2 {
-            font-size: 1.6rem;
-            font-weight: 400;
-            color: #4a3040;
-            margin-bottom: 16px;
-        }
-
-        .intro p {
-            font-size: 1.05rem;
-            color: #5a5a5a;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .topics {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 30px;
-            margin-bottom: 60px;
-        }
-
-        .topic {
-            background: #fff;
-            border: 1px solid #e8dce2;
-            border-radius: 8px;
-            padding: 30px 24px;
-            text-align: center;
-            transition: box-shadow 0.2s;
-        }
-
-        .topic:hover {
-            box-shadow: 0 4px 20px rgba(74, 48, 64, 0.1);
-        }
-
-        .topic h3 {
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: #4a3040;
-            margin-bottom: 10px;
-        }
-
-        .topic p {
-            font-size: 0.95rem;
-            color: #6a6a6a;
-        }
-
-        .coming-soon {
-            text-align: center;
-            padding: 40px 20px;
-            color: #8a7a82;
-            font-style: italic;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            border-top: 1px solid #e8dce2;
-            color: #9a8a92;
-            font-size: 0.85rem;
-        }
-
-        footer a {
-            color: #7a6070;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        footer .sale-notice {
-            margin-top: 12px;
-            font-size: 0.8rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Pointe</h1>
+        <h1><a href="/">Pointe</a></h1>
         <p>Guides, reviews, and resources for dancers</p>
     </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/articles/best-pointe-shoes.html">Best Pointe Shoes</a>
+        <a href="/articles/pointe-shoe-fitting.html">Fitting Guide</a>
+        <a href="/articles/when-to-start-pointe.html">When to Start</a>
+    </nav>
 
     <main>
         <div class="intro">
@@ -141,21 +29,19 @@
         </div>
 
         <div class="topics">
-            <div class="topic">
-                <h3>Pointe Shoe Guides</h3>
+            <a class="topic" href="/articles/best-pointe-shoes.html">
+                <h3>Best Pointe Shoes for Beginners</h3>
                 <p>Expert fitting advice and brand comparisons for dancers at every level.</p>
-            </div>
-            <div class="topic">
-                <h3>Getting Started</h3>
+            </a>
+            <a class="topic" href="/articles/pointe-shoe-fitting.html">
+                <h3>Pointe Shoe Fitting Guide</h3>
+                <p>How to find your perfect fit — from foot shape to your first fitting appointment.</p>
+            </a>
+            <a class="topic" href="/articles/when-to-start-pointe.html">
+                <h3>When to Start Pointe</h3>
                 <p>When is the right time to start pointe? What to expect and how to prepare.</p>
-            </div>
-            <div class="topic">
-                <h3>Reviews</h3>
-                <p>Honest reviews of pointe shoes, accessories, and dancewear essentials.</p>
-            </div>
+            </a>
         </div>
-
-        <p class="coming-soon">More content coming soon. Stay tuned.</p>
     </main>
 
     <footer>

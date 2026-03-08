@@ -270,7 +270,7 @@ Use `pointe.com/xyz` as a URL shortener (like bit.ly but with a cooler domain).
 2. ~~**Add a "Domain for sale/lease" notice** in the footer with a contact email~~ **DONE 2026-03-07**
 3. ~~**Set up Cloudflare** (free) for DNS management and email routing~~ **DONE 2026-03-08** — Free plan, nameservers switched from Namecheap BasicDNS to Cloudflare (brett/cass.ns.cloudflare.com). DNS records imported: 4 A records (GitHub Pages), CNAME www, 5 MX records (Google). SSL/TLS set to "Full", confirmed active and serving via HTTPS.
 4. ~~**Create `info@pointe.com`** forwarding to your personal email~~ **DONE 2026-03-08** — Already works via existing Google Workspace (colleague manages). Catch-all or alias delivers to colleague. No Cloudflare Email Routing needed; MX records left pointing to Google.
-5. **Register with Google Search Console** and submit sitemap
+5. ~~**Register with Google Search Console** and submit sitemap~~ **DONE 2026-03-08** — Verified via HTML file method, sitemap.xml submitted. Property: https://www.pointe.com
 
 ### Phase 2: Week 1-2 — Cost: $0
 
