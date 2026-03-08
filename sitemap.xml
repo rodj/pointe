@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.pointe.com/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.pointe.com/articles/best-pointe-shoes.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.pointe.com/articles/pointe-shoe-fitting.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.pointe.com/articles/when-to-start-pointe.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <priority>0.9</priority>
   </url>
 </urlset>
