@@ -284,7 +284,7 @@ Use `pointe.com/xyz` as a URL shortener (like bit.ly but with a cooler domain).
 1. **Expand to 10-15 articles** on the ballet site
 2. **Set up 2-3 subdomain affiliate pages** for non-ballet niches
 3. **Set up email hosting** (MXRoute ~$25/year) if there's demand from the landing page
-4. **List domain on Dan.com and Afternic** with a high asking price ($5,000+) — doesn't hurt to have it listed while you build
+4. ~~**List domain on Dan.com and Afternic**~~ — Deferred indefinitely. Not a priority.
 
 ### Phase 4: Month 3-6 — Evaluate and Double Down
 
