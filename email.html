@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Name @pointe.com | Pointe</title>
+    <meta name="description" content="Get a short, memorable email address at pointe.com. Perfect for ballet professionals, dance studios, and anyone who wants a clean, elegant email.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .email-hero {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .email-hero h2 {
+            font-size: 2rem;
+            font-weight: 400;
+            color: #4a3040;
+            margin-bottom: 12px;
+        }
+
+        .email-example {
+            font-size: 1.6rem;
+            color: #6a4a5a;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+        }
+
+        .email-hero p {
+            font-size: 1.05rem;
+            color: #5a5a5a;
+            max-width: 600px;
+            margin: 0 auto 12px;
+        }
+
+        .pricing {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin: 40px 0;
+        }
+
+        .price-card {
+            background: #fff;
+            border: 1px solid #e8dce2;
+            border-radius: 8px;
+            padding: 28px 20px;
+            text-align: center;
+        }
+
+        .price-card h4 {
+            font-size: 1rem;
+            color: #7a6070;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .price-card .amount {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #4a3040;
+            margin-bottom: 4px;
+        }
+
+        .price-card .period {
+            font-size: 0.85rem;
+            color: #9a8a92;
+        }
+
+        .who-section {
+            margin: 40px 0;
+        }
+
+        .who-section h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #4a3040;
+            margin-bottom: 14px;
+        }
+
+        .who-section ul {
+            margin: 0 0 20px 28px;
+            color: #3a3a3a;
+        }
+
+        .who-section li {
+            margin-bottom: 8px;
+            font-size: 1.02rem;
+        }
+
+        .inquiry-form {
+            background: #fff;
+            border: 1px solid #e8dce2;
+            border-radius: 8px;
+            padding: 36px;
+            margin: 40px 0;
+        }
+
+        .inquiry-form h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #4a3040;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.95rem;
+            color: #4a3040;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #dcc8d4;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 1rem;
+            color: #2c2c2c;
+            background: #faf8f5;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #9a7a8a;
+        }
+
+        .form-group textarea {
+            height: 80px;
+            resize: vertical;
+        }
+
+        .form-group .at-pointe {
+            display: flex;
+            align-items: center;
+            gap: 0;
+        }
+
+        .form-group .at-pointe input {
+            border-radius: 5px 0 0 5px;
+        }
+
+        .form-group .at-pointe span {
+            background: #f0e4eb;
+            border: 1px solid #dcc8d4;
+            border-left: none;
+            padding: 10px 14px;
+            font-size: 1rem;
+            color: #5a3a4a;
+            border-radius: 0 5px 5px 0;
+            white-space: nowrap;
+        }
+
+        .form-submit {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: #6a4a5a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 1.05rem;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+
+        .form-submit:hover {
+            background: #4a3040;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="/">Pointe</a></h1>
+        <p>Guides, reviews, and resources for dancers</p>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/articles/best-pointe-shoes.html">Best Pointe Shoes</a>
+        <a href="/articles/pointe-shoe-fitting.html">Fitting Guide</a>
+        <a href="/articles/when-to-start-pointe.html">When to Start</a>
+    </nav>
+
+    <main>
+        <div class="email-hero">
+            <h2>Get Your Name @pointe.com</h2>
+            <div class="email-example">you@pointe.com</div>
+            <p>A short, elegant, memorable email address. Perfect for ballet professionals, dance studios, or anyone who appreciates a clean inbox.</p>
+        </div>
+
+        <div class="pricing">
+            <div class="price-card">
+                <h4>Email Forwarding</h4>
+                <div class="amount">$2.99</div>
+                <div class="period">per month</div>
+            </div>
+            <div class="price-card">
+                <h4>Full Mailbox</h4>
+                <div class="amount">$5.99</div>
+                <div class="period">per month</div>
+            </div>
+            <div class="price-card">
+                <h4>Annual Plan</h4>
+                <div class="amount">$49.99</div>
+                <div class="period">per year (full mailbox)</div>
+            </div>
+        </div>
+
+        <div class="who-section">
+            <h3>Who Is This For?</h3>
+            <ul>
+                <li><strong>Ballet professionals</strong> &mdash; teachers, choreographers, and performers who want an email that matches their art</li>
+                <li><strong>Dance studios</strong> &mdash; studio@pointe.com, info@pointe.com, or your studio name</li>
+                <li><strong>Anyone named Pointe</strong> &mdash; get your own name as your email address</li>
+                <li><strong>People who want a short email</strong> &mdash; just 9 characters after the @</li>
+            </ul>
+
+            <h3>What You Get</h3>
+            <ul>
+                <li><strong>Forwarding plan:</strong> Emails to your @pointe.com address are forwarded to your existing email</li>
+                <li><strong>Full mailbox plan:</strong> Send and receive from your @pointe.com address directly</li>
+                <li>Your choice of available username</li>
+                <li>Setup within 24 hours of payment</li>
+            </ul>
+        </div>
+
+        <div class="inquiry-form">
+            <h3>Request Your @pointe.com Address</h3>
+            <form action="https://formspree.io/f/mwvrpjrg" method="POST">
+                <div class="form-group">
+                    <label for="desired-address">Desired Email Address</label>
+                    <div class="at-pointe">
+                        <input type="text" id="desired-address" name="desired-address" placeholder="yourname" required>
+                        <span>@pointe.com</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Current Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="plan">Preferred Plan</label>
+                    <input type="text" id="plan" name="plan" placeholder="Forwarding / Full Mailbox / Annual">
+                </div>
+                <div class="form-group">
+                    <label for="message">Anything Else?</label>
+                    <textarea id="message" name="message" placeholder="Optional — tell us about your use case"></textarea>
+                </div>
+                <button type="submit" class="form-submit">Submit Inquiry</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 pointe.com</p>
+        <p class="sale-notice">
+            Interested in this domain? <a href="mailto:info@pointe.com">Contact us</a>
+            &mdash; pointe.com is available for purchase or lease.
+        </p>
+    </footer>
+</body>
+</html>
