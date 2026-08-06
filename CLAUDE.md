@@ -36,7 +36,8 @@ Therefore:
 
 - `index.html` — Main landing page
 - `CNAME` — GitHub Pages custom domain config
-- `doc/Make_Money_From_pointe.md` — Business plan and strategy document
+- `_config.yml` — Jekyll config; its `exclude:` list keeps non-website files off the live site
+- Business plan and work log live in the private `rodj/pointe-docs` repo (`C:\src\pointe-docs`)
 
 ## Tech Stack
 
