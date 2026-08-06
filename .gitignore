@@ -19,3 +19,8 @@ Gemfile.lock
 
 # Locally generated files (build/reporting artifacts, not source)
 *.generated.*
+
+# Private project docs. This repo is PUBLIC and everything tracked here is also
+# served on the live site, so the business plan and work log live in the private
+# rodj/pointe-docs repo instead. Do not re-add doc/ to this repo.
+doc/

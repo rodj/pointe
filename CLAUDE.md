@@ -4,7 +4,26 @@
 
 Static website for **pointe.com** - a ballet/dance niche affiliate site hosted on GitHub Pages.
 
-See [doc/Make_Money_From_pointe.md](doc/Make_Money_From_pointe.md) for the full business plan and monetization strategy.
+See `Make_Money_From_pointe.md` in the **private** `rodj/pointe-docs` repo (cloned at
+`C:\src\pointe-docs`) for the full business plan and monetization strategy.
+
+## IMPORTANT: This repo is PUBLIC and everything in it is served on the live site
+
+`rodj/pointe` is intentionally public — it is just the source of a public website, so the HTML,
+CSS, affiliate tags and analytics IDs are all visible on pointe.com anyway.
+
+The non-obvious part: **GitHub Pages copies every tracked file to the live site verbatim, including
+Markdown.** Files are not private just because they aren't linked from a page. Project docs were
+publicly readable at `https://www.pointe.com/doc/Make_Money_From_pointe.html` until 2026-08-06.
+
+Therefore:
+
+- **Never put anything non-public in this repo** — no business plans, revenue figures, negotiating
+  positions, personal email addresses, credentials, or internal notes. Private docs go in
+  `rodj/pointe-docs`.
+- `doc/` is gitignored here to prevent it coming back.
+- `_config.yml` excludes `CLAUDE.md`, `README.md`, `doc/` and `articles/drafts/` from the built site.
+  **Anything added to this repo that is not part of the public website must be added to that list.**
 
 ## Architecture
 
@@ -27,7 +46,11 @@ See [doc/Make_Money_From_pointe.md](doc/Make_Money_From_pointe.md) for the full 
 
 ## Work Log
 
-This project has its own work log at `doc/worklog.md`. Use this instead of the global Personal_Work_Log.md.
+This project's work log is `worklog.md` in the private `rodj/pointe-docs` repo, cloned at
+`C:\src\pointe-docs\worklog.md`. Use this instead of the global Personal_Work_Log.md.
+
+It was moved out of this repo on 2026-08-06 because it was publicly readable on the live site.
+Remember to commit and push `pointe-docs` separately after updating it.
 
 ## Publishing Schedule
 

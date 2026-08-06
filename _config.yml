@@ -1,0 +1,16 @@
+# GitHub Pages (Jekyll) configuration for pointe.com
+#
+# GitHub Pages copies any tracked file to the live site verbatim unless it is
+# excluded here -- including Markdown. That is how doc/Make_Money_From_pointe.md
+# and doc/worklog.md ended up publicly readable at https://www.pointe.com/doc/...
+# The private docs now live in the rodj/pointe-docs repo; this exclude list is
+# the second line of defence so repo files can never be published by accident.
+#
+# Anything added here that is NOT part of the public website must also be listed.
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - doc/
+  - articles/drafts/
+  - _config.yml
