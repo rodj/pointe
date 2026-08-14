@@ -65,6 +65,8 @@ Publishing day is **Wednesday**. One article per week.
 - `pointe-shoe-accessories.html` — published June 22, 2026
 - `best-gifts-ballet-dancers.html` — published July 15, 2026 (originally scheduled July 1; caught up late)
 - `how-pointe-shoes-are-made.html` — published July 23, 2026 (originally scheduled July 22; caught up late)
+- `breaking-in-pointe-shoes.html` — published August 6, 2026
+- `pointe-shoe-foot-care.html` — published August 14, 2026 (originally scheduled August 12; caught up late)
 
 ### Remaining drafts in `articles/drafts/`:
 - (none — draft new articles to continue the Wednesday cadence)
