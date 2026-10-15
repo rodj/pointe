@@ -68,6 +68,8 @@ Publishing day is **Wednesday**. One article per week.
 - `breaking-in-pointe-shoes.html` — published August 6, 2026
 - `pointe-shoe-foot-care.html` — published August 14, 2026 (originally scheduled August 12; caught up late)
 
+- `strengthening-exercises-for-pointe.html` — published October 15, 2026 (after a two-month gap)
+
 ### Remaining drafts in `articles/drafts/`:
 - (none — draft new articles to continue the Wednesday cadence)
 
