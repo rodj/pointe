@@ -60,6 +60,17 @@ Publishing one article per week to build topical authority and signal activity t
 Publishing day is **Wednesday**. One article per week.
 
 ### Published articles (in `articles/`):
+
+**This list is the weekly-cadence log only — it is NOT a complete inventory of `articles/`.** Three
+launch articles predate the cadence and are live, linked from the homepage and listed in
+`sitemap.xml`, but do not appear below: `best-pointe-shoes.html`, `pointe-shoe-fitting.html` and
+`when-to-start-pointe.html` (all added together 2026-03-08, commit `a8b0d09`). The source of truth for
+"what is published" is the `articles/` folder plus `sitemap.xml` — not this list. To check whether
+anything is ready to publish, look in `articles/drafts/` (the folder only exists while a draft is in
+it); a file in `articles/` that is missing from this list is almost certainly a launch article, not an
+unfinished one.
+
+Cadence articles:
 - `how-to-sew-pointe-shoe-ribbons.html` — published March 18, 2026
 - `how-to-make-pointe-shoes-last.html` — published March 30, 2026
 - `pointe-shoe-accessories.html` — published June 22, 2026
@@ -69,6 +80,7 @@ Publishing day is **Wednesday**. One article per week.
 - `pointe-shoe-foot-care.html` — published August 14, 2026 (originally scheduled August 12; caught up late)
 
 - `strengthening-exercises-for-pointe.html` — published October 15, 2026 (after a two-month gap)
+- `pointe-dance-bag-checklist.html` — published November 4, 2026 (after a three-week gap)
 
 ### Remaining drafts in `articles/drafts/`:
 - (none — draft new articles to continue the Wednesday cadence)
